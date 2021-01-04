@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/films/nowPlaying">正在热映</router-link> |
+      <router-link to="/films/comingSoon">即将上映</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
 
 <style lang="scss">
 #app {
