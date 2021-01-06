@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import axios from '@/api/http'
+Vue.prototype.$http = axios
+
 Vue.config.productionTip = false
 
 new Vue({
@@ -10,3 +13,4 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+

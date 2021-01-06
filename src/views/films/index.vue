@@ -1,6 +1,15 @@
 <template>
     <div>
-        <h2>tab导航栏</h2>
-        <router-view></router-view>
+        <Hander></Hander>
+        <router-view></router-view> 
     </div>
 </template>
+
+<script>
+    import Hander from '@/components/Hander'
+    export default {
+        components:{
+            Hander
+        }
+    }
+</script>
